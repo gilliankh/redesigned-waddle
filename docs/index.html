@@ -199,7 +199,30 @@
                 padding: 10px;
             }
 
-            /* CSS for extras */
+            input {
+                width: 50%;
+                font-family: 'Nunito', sans-serif;
+                margin: 2px 0;
+                font-size: small;
+                color: white;
+                background-color: #646674;
+            }
+
+            textarea {
+                resize: none;
+                width: 100%;
+                font-family: 'Nunito', sans-serif;
+                margin: 2px 0;
+                font-size: small;
+                background-color: #646674;
+                color: white;
+            }
+
+            button {
+                cursor: pointer;
+                margin: 2px 0;
+            }
+                /* CSS for extras */
 
             #topBar {
                 width: 100%;
@@ -244,6 +267,7 @@
             }
         </style>
     </head>
+
     <body>
         <div id="container">
             <div id="headerArea">
@@ -264,17 +288,15 @@
                     <h2>interesting things</h2>
                     <div class="box">
                         <ul style="padding-left:10px;">
-                            <li><a href="https://blinkies.cafe/" target="_blank">blinkies.cafe</a> - make your own blinkies</li>
                             <li><a href="https://make-everything-ok.com/" target="_blank">make everything okay</a></li>
+                            <li><a href='https://blinkies.cafe' target='_blank'><img src='https://blinkies.cafe/b/display/blinkiesCafe-badge.gif' alt='blinkies.cafe | make your own blinkies!' /></a></li>
                             <li><a href="https://www.photopea.com/" target="_blank">photopea</a> - free photoshop alternative</li>
                             <li><a href="https://www.zalgo.com/" target="_blank">ZOMBO</a></li>
                         </ul>
                         <img src="x-mao6.gif" alt="cat looking up">
                     </div>
                     <br>
-                    <a href="snails.html">
-                        <img src="detritivores_blinkie.gif" alt="friend of detritivores" width="150" height="20">
-                    </a>
+                    
 
                     <h3>site building resources</h3>
                     <ul>
@@ -286,15 +308,39 @@
                         <li><a href="https://happycoding.io/tutorials/html/github-pages#add-an-html-file" target="_blank">happycoding.io</a></li>
                     </ul>
                 </aside>
+
                 <main>
                     <h1>welcome!</h1>
                     <p><strong>this is my homepage!</strong></p>
                     <p>I am a multimedia artist. Check out <a href="gallery.html">the gallery</a> to see some of my projects.</p>
                     <p></p>
-                    <p></p>
-                    <p></p>
+
+                    <a href="snails.html">
+                        <img src="detritivores_blinkie.gif" alt="friend of detritivores" width="150" height="20">
+                    </a>
+                    <img src="tbearblink.gif" alt="teddy bear collector" width="150" height="54">
+                    <img src="blinkiesCafe-eK.gif" alt="teddy bear collector" width="150" height="20">
+
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+
+                    <div style="margin:auto;">
+                        <p style=" font-size: small;"><strong>Send me a message?</strong></p>
+                        <form action="https://fabform.io/f/sMlP5GL" method="POST">
+                            <input type="text" name="name" placeholder="Your name" required />
+                            <input type="email" name="email" placeholder="Your email" required />
+                            <textarea name="message" placeholder="Message" rows="4" cols="50" required></textarea>
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
                 </main>
             </div>
+
             <footer id="footer" style="margin-top: 5px;">
                 <p><strong>made with love</strong></p>
                 <p>I do not give permission for this content to be used for AI training purposes.</p>
